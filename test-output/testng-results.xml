@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8213" started-at="2018-10-02T05:17:31Z" finished-at="2018-10-02T05:17:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8213" started-at="2018-10-02T05:17:31Z" finished-at="2018-10-02T05:17:39Z">
+      <class name="com.qa.tests.WeatherInfoTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.WeatherInfoTests@46d56d67]" name="setUp" is-config="true" duration-ms="11" started-at="2018-10-02T10:47:32Z" finished-at="2018-10-02T10:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getWeatherDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.WeatherInfoTests@46d56d67]" name="getWeatherDetails" duration-ms="5701" started-at="2018-10-02T10:47:32Z" data-provider="getData" finished-at="2018-10-02T10:47:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Heavy Cloud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SSW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.WeatherInfoTests@46d56d67]" name="setUp" is-config="true" duration-ms="3" started-at="2018-10-02T10:47:38Z" finished-at="2018-10-02T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getWeatherDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.WeatherInfoTests@46d56d67]" name="getWeatherDetails" duration-ms="991" started-at="2018-10-02T10:47:38Z" data-provider="getData" finished-at="2018-10-02T10:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Showers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NSW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetails -->
+      </class> <!-- com.qa.tests.WeatherInfoTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
